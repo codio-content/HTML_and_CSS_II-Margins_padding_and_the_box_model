@@ -1,0 +1,143 @@
+{
+ "sections": [
+  {
+   "id": "903723d1-b17b-eeb4-fa2b-82254eb98d4c",
+   "title": "Introduction",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-9037.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "2595ed0f-c8-4728-8367-b3d5a7ac4561",
+   "title": "A complete example",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A-complete-example-2595.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "504b366f-d3c9-557-4fa6-9ecc1991cdfe",
+   "title": "Styling lists",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Styling-lists-504b.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "49549a02-cd08-73ce-4eec-914418eef23b",
+   "title": "Margin or padding ?",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Margin-or-padding---4954.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "cd925606-d322-1c46-842a-4dd347063dfd",
+   "title": "The box model",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-box-model-cd92.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "f878d4cc-7c03-55d5-41a4-241551159ef3",
+   "title": "Different values for box-sizing",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Different-values-for-box-sizing-f878.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "3d68f87c-be2c-344-338a-e232eba9b6d8",
+   "title": "Margins",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Margins-3d68.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "243446a-eb82-bf12-4686-2625954d3f94",
+   "title": "Different ways to define margins",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Different-ways-to-define-margins-2434.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
+   "title": "Negative margins",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Negative-margins-eb8e.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "ff25ce21-de5f-bf87-732f-8ce3bb3a75ae",
+   "title": "Centering with margins",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Centering-with-margins-ff25.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "e5aa6ff4-1207-c7cf-79e7-c23a727561b5",
+   "title": "Paddings",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Paddings-e5aa.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "8c2ad69b-bf29-94a8-4c7-a0685e009021",
+   "title": "Different ways to define paddings",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Different-ways-to-define-paddings-8c2a.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "9450c13f-6bdf-88fc-e1f5-3af591702e58",
+   "title": "That's all folks",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/That-s-all-folks-9450.md",
+   "chapter": true,
+   "reset": []
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
