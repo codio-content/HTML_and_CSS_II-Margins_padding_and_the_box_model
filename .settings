@@ -27,6 +27,7 @@ tab_size = 2
 ; enter your search preferences here...
 
 [guides]
+theme = light
 ; enter your guides preferences here...
 
 [settings]

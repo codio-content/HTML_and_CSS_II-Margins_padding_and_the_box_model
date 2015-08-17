@@ -4,7 +4,7 @@
    "id": "903723d1-b17b-eeb4-fa2b-82254eb98d4c",
    "title": "Introduction",
    "files": [],
-   "layout": "",
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Introduction-9037.md",
@@ -13,12 +13,24 @@
   },
   {
    "id": "2595ed0f-c8-4728-8367-b3d5a7ac4561",
-   "title": "A complete example",
-   "files": [],
-   "layout": "",
-   "path": [],
+   "title": "An interactive example",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: a-complete-example/index.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [
+    "a-complete-example"
+   ],
    "type": "markdown",
-   "content-file": ".guides/content/A-complete-example-2595.md",
+   "content-file": ".guides/content/An-interactive-example-2595.md",
    "chapter": true,
    "reset": []
   },

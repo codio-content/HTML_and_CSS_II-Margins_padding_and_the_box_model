@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Box Model Demo</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="box-model.css">
+	</head>
+	<body>
+		<div class="box"></div>
+
+    <aside class="box-controls">
+      <p>Adjust the sliders to see how the box changes and generates the necessary code.</p>
+			<form>
+				<fieldset>
+					<legend>Properties</legend>
+					<label for="boxWidth">Width:</label>
+					<input type="range" min="0" max="500" name="boxWidth" id="boxWidth" value="200" step="5">
+					<label for="boxWidth">Height:</label>
+					<input type="range" min="0" max="500" name="boxHeight" id="boxHeight" value="200" step="5">
+				  <label for="boxPadding">Padding</label>
+					<input type="range" min="0" max="100" name="boxPadding" id="boxPadding" value="20" step="5">
+          <label for="boxMargin">Margin</label>
+					<input type="range" min="0" max="100" name="boxMargin" id="boxMargin" value="20" step="5">
+          <label for="boxBorder">Border</label>
+					<input type="range" min="0" max="50" name="boxBorder" id="boxBorder" value="10" step="5">
+        </fieldset>
+
+        <fieldset class="code">
+            <legend>Resulting CSS</legend>
+
+            <pre><code id="boxCode"></code></pre>
+
+        </fieldset>
+        
+      </form>
+		</aside>
+
+		<script src="jquery.min.js" ></script>
+		<script src="box-model.js"></script>
+	</body>
+</html>
+
