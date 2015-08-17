@@ -901,3 +901,9 @@ mark {
 .codio-assessment-last-run {
   font-family: 'Brandon Grotesque W01';
 }
+
+img.arrow-inline {
+  display:inline;
+  position: relative;
+  top: 14px;
+}

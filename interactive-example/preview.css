@@ -1,0 +1,151 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	color:#333;
+	font-family:'Open Sans', sans-serif;
+}
+h1 {
+	margin:0 0 0.25em;
+}
+p {
+	margin:0 0 1em;
+}
+a {
+	color:#333;
+	-webkit-transition:0.3s;
+	        transition:0.3s;
+}
+a:hover {
+	color:#999;
+}
+.box {
+	position:relative;
+	margin-top:10px;
+}
+
+.box-property {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.box,
+.box-property {
+	-webkit-transition:0.3s;
+	        transition:0.3s;
+}
+
+/* Property values in model via pseudo elements */
+
+.box-inner {
+	background:#9fc4e7;
+
+	font-family:'Ubuntu Mono', 'Courier New', monospace;
+	text-align:center;
+	line-height:1em;
+  overflow:hidden;
+  word-wrap:break-word;
+}
+
+.box-inner:before {
+	content:"ContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContentContent";
+	position:absolute;
+	left:0;
+	top:0;
+  margin:0;
+  padding:0;
+
+	width:100%;
+  height:100%:
+}
+
+.box-padding {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+	background-color:#9fc4e7;
+}
+
+
+.box-border {
+	background:#feedbb;
+}
+
+a.ss.selected {
+  font-weight:bold;
+  text-decoration:none;
+  cursor:default;
+}
+
+
+/* Controls */
+
+.box-controls {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:262px;
+	background:#eee;
+	background:rgba(240, 240, 240, 0.8);
+  border-top:2px solid #999;
+	z-index:100;
+}
+.box-controls p {
+  padding: 10px;
+  font-size:14px;
+  border-bottom:2px solid #999;
+}
+
+fieldset {
+	padding:1em;
+  height:199px;
+  box-sizing: border-box;
+  width:48%;
+}
+
+fieldset.props {
+  position:absolute;
+  bottom:4px;
+  left:4px;
+}
+
+fieldset.code {
+  background-color: white;
+  position:absolute;
+  bottom:4px;
+  right:4px;
+}
+
+label, input {
+	display:inline-block;
+	margin:0 0 0.25em;
+	vertical-align:middle;
+}
+label {
+	width:40%;
+	font-size:0.8em;
+}
+input[type="range"] {
+	width:55%;
+}
+.box-link-properties {
+	margin-bottom:0.5em;
+	padding:0;
+	border:0;
+}
+.box-link-properties label {
+	width:auto;
+}
+.box-link-properties input {
+	margin-right:0.5em;
+}
+
+.box-controls h2 {
+	margin-bottom:1em;
+}
+

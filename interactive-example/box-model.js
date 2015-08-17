@@ -1,5 +1,29 @@
+
+
 $(function(){
+  
+  $("a.ss").click(function() { 
+    
+    $(".selected").removeClass("selected");
+    $(this).addClass("selected");
+		$("link").attr("href",$(this).attr('rel'));
+    return false;
+  });
+ 
+
+  var resize = function(){
+     if ($(window).width() > $(".box")[0].scrollWidth) {
+       $(".box-controls").css("width",$(window).width())
+     } else {
+       $(".box-controls").css("width",$("body")[0].scrollWidth)
+     }       
+  }
+  
+  $(window).resize(resize);
+  
 	var boxModel = {
+    
+    
 
 		$box: $('.box'),
 		$boxInner: $('<div class="box-inner box-property" data-property="content"></div>'),
@@ -22,8 +46,6 @@ $(function(){
 			boxModel.showPropertyOnHover();
 		},
 		getBoxProperties: function(){
-			var propertiesToLink = ['Margin', 'Padding', 'Border'];
-
 			boxModel.boxSizing = 'content-box';
 
 			boxModel.boxWidth         = parseInt($('#boxWidth').val(), 10);
@@ -145,13 +167,14 @@ $(function(){
 			if ( boxPaddingLeft >= 0 ) {
 				boxPaddingLeft = boxPaddingLeft * -1;
 			}
-
-			boxModel.$box.css({
-				top: boxTop,
-				left: boxLeft,
+        
+      boxModel.$box.css({
+				top: boxTop + 12,
+				left: boxLeft + 20,
 				width: boxWidth + 'px',
 				height: boxHeight + 'px'
 			});
+      
 			boxModel.$boxInner.css({
 				width: boxWidth + 'px',
 				height: boxHeight + 'px'
@@ -180,11 +203,11 @@ $(function(){
 				left: boxMarginLeft + 'px'
 			});
 
-			$('#generatedWidth').text(boxBorderWidth);
-			$('#generatedHeight').text(boxBorderHeight);
 
 			boxModel.generateCode();
 			boxModel.addDimensionsToModel();
+      
+      setTimeout(resize,500)
 		}
 	};
 

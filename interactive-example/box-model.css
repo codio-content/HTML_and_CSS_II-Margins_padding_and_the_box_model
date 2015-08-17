@@ -3,7 +3,6 @@
 	padding:0;
 }
 body {
-	padding:1em 24em 3em 3em;
 	color:#333;
 	font-family:'Open Sans', sans-serif;
 }
@@ -190,32 +189,37 @@ a:hover {
 	box-sizing:border-box;
 	position:absolute;
 	bottom:0;
-	right:0;
-
-	width:100%;
+	left:0;
 	height:262px;
-	padding:1.5em;
 	background:#eee;
 	background:rgba(240, 240, 240, 0.8);
-
+  border-top:2px solid #999;
 	z-index:100;
 }
 .box-controls p {
-  padding: 0 0 14px;
-  margin: 0 0 16px;
+  padding: 10px;
   font-size:14px;
-  border-bottom:1px solid #000;
+  border-bottom:2px solid #999;
 }
 
 fieldset {
-	margin:0 0.5em 1em;
 	padding:1em;
-  width: 40%;
-  float:left;
+  height:199px;
+  box-sizing: border-box;
+  width:48%;
+}
+
+fieldset.props {
+  position:absolute;
+  bottom:4px;
+  left:4px;
 }
 
 fieldset.code {
   background-color: white;
+  position:absolute;
+  bottom:4px;
+  right:4px;
 }
 
 label, input {
@@ -246,3 +250,8 @@ input[type="range"] {
 	margin-bottom:1em;
 }
 
+a.ss.selected {
+  font-weight:bold;
+  text-decoration:none;
+  cursor:default;
+}

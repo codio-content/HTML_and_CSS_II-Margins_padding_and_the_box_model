@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Box Model Demo</title>
@@ -7,10 +8,10 @@
 	<body>
 		<div class="box"></div>
 
-    <aside class="box-controls">
-      <p>Adjust the sliders to see how the box changes and generates the necessary code.</p>
+    <div class="box-controls">
+      <p> View mode : <a class="ss selected" href="#" rel="box-model.css">Box model</a> &nbsp; <a class="ss" href="#" rel="preview.css">Result</a></p>
 			<form>
-				<fieldset>
+				<fieldset class="props">
 					<legend>Properties</legend>
 					<label for="boxWidth">Width:</label>
 					<input type="range" min="0" max="500" name="boxWidth" id="boxWidth" value="200" step="5">
@@ -32,7 +33,7 @@
         </fieldset>
         
       </form>
-		</aside>
+		</div>
 
 		<script src="jquery.min.js" ></script>
 		<script src="box-model.js"></script>

@@ -13,14 +13,14 @@
   },
   {
    "id": "2595ed0f-c8-4728-8367-b3d5a7ac4561",
-   "title": "An interactive example",
+   "title": "A concrete example",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "#preview: a-complete-example/index.html",
+     "path": "a-complete-example/concrete.html",
      "panel": 0,
      "action": "open"
     }
@@ -30,7 +30,30 @@
     "a-complete-example"
    ],
    "type": "markdown",
-   "content-file": ".guides/content/An-interactive-example-2595.md",
+   "content-file": ".guides/content/A-concrete-example-2595.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "b4bed6d3-3263-f3a4-9654-d31f5aad7e6b",
+   "title": "Interactive example",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: interactive-example/index.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "interactive-example"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactive-example-b4be.md",
    "chapter": true,
    "reset": []
   },
