@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example 3</title>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <style>
+      p.contentbox {
+        box-sizing:content-box;
+        width:300px;
+        height:100px;
+        background-color:#45e0e0;
+        padding:20px;
+        border:2px solid #096d82;
+        
+      }
+      
+      p.borderbox {
+        box-sizing:border-box;
+        width:300px;
+        height:100px;
+        background-color:#45e0e0;
+        padding:20px;
+        border:2px solid #096d82;
+      }
+    </style>
+</head>
+<body>
+  <p class="contentbox">
+    This box has box-sizing : <b>content-box</b>. <br>
+    You can see with a red line what exactly the width applies to.
+  </p>
+  
+  <p class="redline cb"> width : 300px; </p>
+  
+  <p class="borderbox">
+    This box has box-sizing : <b>border-box</b>. <br>
+    You can see with a red line what exactly the width applies to.
+  </p>
+  
+  <p class="redline bb"> width : 300px; </p>
+  
+
+</body>
+</html>

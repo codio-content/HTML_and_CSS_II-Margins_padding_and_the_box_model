@@ -1,0 +1,30 @@
+p.first {
+  float:left;
+}
+
+p.second {
+  float:right;
+}
+
+p.redline {
+  border-top:2px solid #5e0b0b;
+}
+
+p.redline {
+  position:relative;  
+  border-top:3px solid red;
+  color:red;
+  width:300px;
+  top:-16px;
+  z-index:3;
+  text-align:center;
+}
+
+p.redline.cb {
+  left:20px; 
+}
+
+
+p.redline.bb {
+  left:0px;
+}

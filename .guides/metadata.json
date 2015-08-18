@@ -98,45 +98,34 @@
    ]
   },
   {
-   "id": "504b366f-d3c9-557-4fa6-9ecc1991cdfe",
-   "title": "Styling lists",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Styling-lists-504b.md",
-   "chapter": false,
-   "reset": []
-  },
-  {
-   "id": "49549a02-cd08-73ce-4eec-914418eef23b",
-   "title": "Margin or padding ?",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Margin-or-padding---4954.md",
-   "chapter": false,
-   "reset": []
-  },
-  {
    "id": "cd925606-d322-1c46-842a-4dd347063dfd",
-   "title": "The box model",
-   "files": [],
-   "layout": "",
-   "path": [],
+   "title": "box sizing",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "box-sizing/example1.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: box-sizing/example1.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "box-sizing"
+   ],
    "type": "markdown",
-   "content-file": ".guides/content/The-box-model-cd92.md",
+   "content-file": ".guides/content/box-sizing-cd92.md",
    "chapter": true,
-   "reset": []
-  },
-  {
-   "id": "f878d4cc-7c03-55d5-41a4-241551159ef3",
-   "title": "Different values for box-sizing",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Different-values-for-box-sizing-f878.md",
-   "chapter": false,
-   "reset": []
+   "reset": [
+    "box-sizing"
+   ]
   },
   {
    "id": "3d68f87c-be2c-344-338a-e232eba9b6d8",
@@ -198,6 +187,17 @@
    "type": "markdown",
    "content-file": ".guides/content/Different-ways-to-define-paddings-8c2a.md",
    "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "49549a02-cd08-73ce-4eec-914418eef23b",
+   "title": "Margin or padding ?",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Margin-or-padding---4954.md",
+   "chapter": true,
    "reset": []
   },
   {
