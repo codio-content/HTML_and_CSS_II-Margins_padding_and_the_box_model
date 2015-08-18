@@ -58,6 +58,46 @@
    "reset": []
   },
   {
+   "id": "92238ab8-1344-562-2169-1299dcef4dcf",
+   "title": "A first challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "a-first-challenge/style.css",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "a-first-challenge/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/tests/first-challenge-target.html",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "#preview: a-first-challenge/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "a-first-challenge"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/A-first-challenge-9223.md",
+   "chapter": true,
+   "reset": [
+    "a-first-challenge"
+   ]
+  },
+  {
    "id": "504b366f-d3c9-557-4fa6-9ecc1991cdfe",
    "title": "Styling lists",
    "files": [],
