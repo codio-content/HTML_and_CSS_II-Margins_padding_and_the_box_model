@@ -76,7 +76,7 @@
      "action": "open"
     },
     {
-     "path": "#preview: .guides/tests/first-challenge-target.html",
+     "path": "#preview: .guides/html/first-challenge-target.html",
      "panel": 1,
      "action": "open"
     },
@@ -130,23 +130,32 @@
   {
    "id": "3d68f87c-be2c-344-338a-e232eba9b6d8",
    "title": "Margins",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "margins/one.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: .guides/html/one-preview.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
    "layout": "",
-   "path": [],
+   "path": [
+    "margins"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Margins-3d68.md",
    "chapter": true,
-   "reset": []
-  },
-  {
-   "id": "243446a-eb82-bf12-4686-2625954d3f94",
-   "title": "Different ways to define margins",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Different-ways-to-define-margins-2434.md",
-   "chapter": false,
-   "reset": []
+   "reset": [
+    "margins"
+   ]
   },
   {
    "id": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
