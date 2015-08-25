@@ -15,6 +15,4 @@ margin-top:-10px;
 
 Then refresh the bottom preview !
 
-Using a negative top margin on the paragraph we allowed him to go up and be under the darker blue block.
-
-
+Using a negative top margin on the paragraph, we allowed him to go up and be under the darker blue block.

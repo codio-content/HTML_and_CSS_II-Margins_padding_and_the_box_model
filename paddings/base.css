@@ -16,7 +16,8 @@ p {
 h3 { padding:20px 0 10px;}
 h3:first-child { padding:0px 0 10px; }
 
-div.margins {
-  width:242px;
-  background-image:url(/.guides/img/margin-swatch.png);
+code {
+  background-color:red;
+  width: 100%;
+  display: inline-block;
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Negative margin 2</title>
+  <link rel="stylesheet" type="text/css" href="example2.css">
+  <style>
+    li {box-sizing:border-box;}
+    li {line-height:16px; border:1px solid #000;}
+    .col2 {margin-left:120px;}
+    .col3 {margin-left:240px;}
+    .top { margin-top:-36px; }
+    .first {
+      color:#ccc;
+    }
+    
+    .container {
+      position:relative;
+      wdith:100%;
+    }
+    
+    .first li {
+      border:1px solid #ccc;
+    }
+    .first, .second {
+      position:absolute;
+      top:0px;
+      width:100%;
+    }
+    
+  </style>
+</head>
+<body>
+  
+  <h1> Here is a multicolumn list</h1>
+  <div class="container">
+
+  
+  <div class="second">
+    <ul>
+      <li class="col1">First item</li>
+      <li class="col1">Second item</li>
+      <li class="col2">Third item</li>
+      <li class="col2">Fourth item</li>
+      <li class="col3">Fifth item</li>
+      <li class="col3">Last item</li>
+    </ul>
+  </div>
+  </div>
+  
+  
+
+</body>
+</html>

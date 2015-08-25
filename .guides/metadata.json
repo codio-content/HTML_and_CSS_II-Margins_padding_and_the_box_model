@@ -141,7 +141,7 @@
      "action": "open"
     },
     {
-     "path": "#preview: .guides/html/one-preview.html",
+     "path": "#preview: margins/one.html",
      "panel": 1,
      "action": "open"
     }
@@ -158,20 +158,116 @@
    ]
   },
   {
-   "id": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
-   "title": "Negative margins",
-   "files": [],
-   "path": [],
+   "id": "c7e9be53-b0a9-52fa-3406-1568b10013e3",
+   "title": "Margins challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "margins-challenge/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: margins-challenge/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "margins-challenge"
+   ],
    "type": "markdown",
-   "content-file": ".guides/content/Negative-margins-eb8e.md",
+   "content-file": ".guides/content/Margins-challenge-c7e9.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
+   "title": "Negative margins for overlapping",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "negative-margins/example1.html",
+     "panel": 0,
+     "ref": "margin-top:10px",
+     "lineCount": null,
+     "action": "open"
+    },
+    {
+     "path": "#preview: negative-margins/example1.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "negative-margins"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Negative-margins-for-overlapping-eb8e.md",
+   "chapter": false,
+   "reset": [
+    "negative-margins"
+   ]
+  },
+  {
+   "id": "3be84f54-1e93-6afd-2f1f-d6c119e4b30d",
+   "title": "Negative margins for lists",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "negative-margins/example2.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: negative-margins/example2.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "negative-margins"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Negative-margins-for-lists-3be8.md",
    "chapter": false,
    "reset": []
   },
   {
    "id": "ff25ce21-de5f-bf87-732f-8ce3bb3a75ae",
    "title": "Centering with margins",
-   "files": [],
-   "path": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "margins-centering/index.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: margins-centering/index.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "margins-centering"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Centering-with-margins-ff25.md",
    "chapter": false,
@@ -180,29 +276,71 @@
   {
    "id": "e5aa6ff4-1207-c7cf-79e7-c23a727561b5",
    "title": "Paddings",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "paddings/one.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: paddings/one.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
    "layout": "",
-   "path": [],
+   "path": [
+    "paddings"
+   ],
    "type": "markdown",
    "content-file": ".guides/content/Paddings-e5aa.md",
    "chapter": true,
    "reset": []
   },
   {
-   "id": "8c2ad69b-bf29-94a8-4c7-a0685e009021",
-   "title": "Different ways to define paddings",
-   "files": [],
-   "path": [],
+   "id": "abcca2cb-a47d-87f-8dd3-a500d04dd1d",
+   "title": "Paddings challenge",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "paddings-challenge/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: paddings-challenge/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "paddings-challenge"
+   ],
    "type": "markdown",
-   "content-file": ".guides/content/Different-ways-to-define-paddings-8c2a.md",
+   "content-file": ".guides/content/Paddings-challenge-abcc.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "paddings-challenge"
+   ]
   },
   {
    "id": "49549a02-cd08-73ce-4eec-914418eef23b",
    "title": "Margin or padding ?",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Margin-or-padding---4954.md",
