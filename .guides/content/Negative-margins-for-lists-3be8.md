@@ -17,6 +17,17 @@ Go ahead and add the style `margin-top:-2em;` to the .top selector on line 10 th
 
 Nice ! Exactly what we wanted ...
 
+{Check It!|assessment}(test-3205313735)
+
+|||guidance
+
+Solution :
+
+```css
+      .top { margin-top:-2em; }
+```
+|||
+
 ## How does it work ?
 
 Let's add some borders to visualize what happens initially :
@@ -35,4 +46,3 @@ Then we add the class "top" on the 5th li as well and it will also shift up alon
 ![](.guides/img/second-up.png)
 
 Now they are all alined !
-

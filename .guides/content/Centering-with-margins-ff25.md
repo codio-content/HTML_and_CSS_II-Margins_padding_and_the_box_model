@@ -21,3 +21,18 @@ If we visualize the margins in this case, it would look like this :
 ![](.guides/img/centering-with-margins.png)
 
 As you see with the red arrows, the margin on the left and right stretch to fill all the available space.
+
+{Check It!|assessment}(test-2685391133)
+
+|||guidance
+
+Solution :
+
+```css
+  .center {
+    text-align:center;
+    width:400px;
+    margin:10px auto;
+  }
+```
+|||
