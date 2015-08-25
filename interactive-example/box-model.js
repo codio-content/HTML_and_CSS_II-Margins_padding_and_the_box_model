@@ -208,6 +208,7 @@ $(function(){
 			boxModel.addDimensionsToModel();
       
       setTimeout(resize,500)
+      setTimeout(resize,1000)
 		}
 	};
 
