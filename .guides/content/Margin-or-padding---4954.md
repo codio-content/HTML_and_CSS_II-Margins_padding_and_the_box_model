@@ -27,7 +27,7 @@ It might be more clear if we put our background-color and borders back, like thi
 ![](.guides/img/multi-background.png)
 
 You might start to understand what's happening : On the left side, each box has its own padding of 20px and thus it makes a space of 40px between the contents, on the right the margins are also 20px each but margins "collapse". 
-So the two margins of two adjacents elements will collapse! It is by the definition of a margin, if you say that you want a margin of 20px, you mean that you want 20px of space around your box till the next box, and if the other box has the same margin, then by leaving 20px between both boxes you are satisfying both margins of 20px. This is called **margin collapse** and you can see it in more details here :
+So the two margins of two adjacents elements will collapse! It is by the definition of a margin, if you say that you want a margin of 20px, you mean that you want 20px of space around your box until the next box, and if the other box has the same margin, then by leaving 20px between both boxes you are satisfying both margins of 20px. This is called **margin collapse** and you can see it in more details here :
 
 ![](.guides/img/multi-background-zoom.png)
 

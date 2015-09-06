@@ -114,7 +114,7 @@ phantom.create(function (ph) {
           process.exit(1);
         } else {
           if(retErrors.length <= 0 ) {
-            process.stdout.write('Well done!!!')
+            process.stdout.write('Well done!')
             ph.exit();
             process.exit(0);
           }
