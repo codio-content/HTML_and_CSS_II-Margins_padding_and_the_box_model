@@ -33,7 +33,9 @@
    "type": "markdown",
    "content-file": ".guides/content/A-concrete-example-2595.md",
    "chapter": true,
-   "reset": [],
+   "reset": [
+    "a-complete-example"
+   ],
    "teacherOnly": false
   },
   {
@@ -57,7 +59,9 @@
    "type": "markdown",
    "content-file": ".guides/content/Interactive-example-b4be.md",
    "chapter": true,
-   "reset": [],
+   "reset": [
+    "interactive-example"
+   ],
    "teacherOnly": false
   },
   {
@@ -148,7 +152,9 @@
    "type": "markdown",
    "content-file": ".guides/content/Margins-challenge-c7e9.md",
    "chapter": false,
-   "reset": [],
+   "reset": [
+    "margins-challenge"
+   ],
    "teacherOnly": false
   },
   {
@@ -210,7 +216,9 @@
    "type": "markdown",
    "content-file": ".guides/content/Negative-margins-for-lists-3be8.md",
    "chapter": false,
-   "reset": [],
+   "reset": [
+    "negative-margins"
+   ],
    "teacherOnly": false
   },
   {
@@ -239,7 +247,9 @@
    "type": "markdown",
    "content-file": ".guides/content/Centering-with-margins-ff25.md",
    "chapter": false,
-   "reset": [],
+   "reset": [
+    "margins-centering"
+   ],
    "teacherOnly": false
   },
   {
@@ -268,7 +278,9 @@
    "type": "markdown",
    "content-file": ".guides/content/Paddings-e5aa.md",
    "chapter": true,
-   "reset": [],
+   "reset": [
+    "paddings"
+   ],
    "teacherOnly": false
   },
   {
