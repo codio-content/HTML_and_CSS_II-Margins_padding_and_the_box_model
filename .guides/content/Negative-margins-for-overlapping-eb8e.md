@@ -7,7 +7,7 @@ Have a look at the preview in the bottom left hand pane. We would like to have t
 
 ![](.guides/img/overlapping.png)
 
-In order to achieve this, change the line 8 of example1.html, which is highlighted in the top left hand pane, to this :
+In order to achieve this, change the line 8 of `example1.html`, which is highlighted in the top left hand pane, to this :
 
 ```css
 margin-top:-10px;
