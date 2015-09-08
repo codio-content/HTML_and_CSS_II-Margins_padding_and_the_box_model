@@ -46,7 +46,7 @@ Where `<top>` is the size of the padding on the top, `<right>` is the size of th
 
 |||info
 
-### Reminder :
+### Reminder
 An easy way to remember the order of the four values is to think about a clock like this :
 
 <div style="margin:0 auto;">
