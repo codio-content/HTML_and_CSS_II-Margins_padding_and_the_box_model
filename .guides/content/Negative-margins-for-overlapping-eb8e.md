@@ -32,11 +32,11 @@ Solution :
 
 ## How does it work ?
 
-At the begining we have a margin of 10px around the light blue paragraph. If we visualize the margins, it looks like this :
+At the beginning we have a margin of 10px around the light blue paragraph. If we visualize the margins, it looks like this :
 
 ![](.guides/img/with-margin.png)
 
-If we put the margin top to 0px, the two elements will touch but not overlap, like this :
+If we put the `margin-top` to 0px, the two elements will touch but not overlap, like this :
 
 ![](.guides/img/null-margin.png)
 
@@ -44,7 +44,6 @@ Now if we put the negative margins of -10px, we have the desired result :
 
 ![](.guides/img/negative-margin.png)
 
-If you look at the red arrows, you see that the margins actually go "inside" the element. and thus the top dark blue title is aligned with this "inside" margins. We have added a red line to make this more obvious. That's what happen when you give a negative margin to an element, it allows other elements to come "inside".
-
+If you look at the red arrows, you see that the margins actually go “inside” the element. And thus the top dark blue title is aligned with this “inside” margin. We have added a red line to make this more obvious. That’s what happens when you give a negative margin to an element, it allows other elements to come "inside”.
 
 

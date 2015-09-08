@@ -12,9 +12,9 @@ Now if we look at this example, things become less obvious :
 
 ![](.guides/img/one-transparent.png)
 
-In this case there is no border or background color and the end result is, visually, the same. In this case it's up to you to choose the option that makes the most sense. Do you want your content box to be bigger, in this case add some padding, if you want to add space around your box then add margins.
+In this case there is no border or background color and the end result is, visually, the same. In this case it's up to you to choose the option that makes the most sense. Do you want your content box to be bigger? If so then add some padding. If you want to add space around your box then add margins.
 
-Well this is not entirelly true as there is a still a small difference between both. In order to see it, let's add more paragraphs in our example :
+Well this is not entirely true as there is a still a small difference between both. In order to see it, let's add more paragraphs in our example :
 
 ![](.guides/img/multi-transparent.png)
 
@@ -31,6 +31,6 @@ So the two margins of two adjacents elements will collapse! It is by the definit
 
 ![](.guides/img/multi-background-zoom.png)
 
-Basically margins are not part of an element, while paddings are part of an element, that why background-color applies to padding and to margins. That's why padding is respected everytime, because it makes the element bigger, margin on the other end, is just a constraint on the distance relative to other elements around.
+Basically margins are not part of an element, while paddings are part of an element, that's why background-color applies to padding and to margins. That's why padding is respected everytime, because it makes the element bigger, margin on the other end, is just a constraint on the distance relative to other elements around.
 
 In general it is best to use margins to put space between elements, except if there is a background-color and/or a border. You can also combine both margins and paddings, this it totally valid.

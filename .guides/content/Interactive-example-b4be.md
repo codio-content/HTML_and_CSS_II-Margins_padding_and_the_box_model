@@ -6,7 +6,7 @@ It's made of 4 parts :
 
 ![](.guides/img/top-part.png)
 
-1. The bottom line: "View mode" allows us to change the view mode from box model to end result. When in "Box model" mode, you can put your mouse over the different parts of the box model to see details. When in "Result" you will just see how the end result would look like considering we have a blue background, a yellow border and a white page background.
+1. The bottom line: "View mode" allows us to change the view mode from "Box model" to "Result". When in "Box model" mode, you can put your mouse over the different parts of the box model to see details. When in "Result" you will just see how the end result would look like considering we have a blue background, a yellow border and a white page background.
 
 ![](.guides/img/view-mode.png)
 

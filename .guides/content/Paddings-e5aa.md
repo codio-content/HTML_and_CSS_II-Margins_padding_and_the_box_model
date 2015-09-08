@@ -1,6 +1,6 @@
 In this section we will see paddings in depth.
 
-Paddings are the spaces around your content inside the box until the borders. They are used to put space around your text mainly.
+Paddings are the spaces from the outer edge of your content to the inner edge of the border. They are used to put space around your text mainly.
 
 There are multiple ways of defining paddings, and they follow the same logic as margins.
 
@@ -66,6 +66,6 @@ padding-bottom: <width> ;
 padding-left: <width> ;
 ```
 
-If you only want to set one side at a time, you can use the above version. It's practical when you just want to set one value to a certain width and all the other to zero.
+If you only want to set one side at a time, you can use the above version. It’s practical when you just want to set one value to a certain width and all the others to zero.
 
 

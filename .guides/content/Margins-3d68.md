@@ -70,5 +70,5 @@ margin-bottom: <width> ;
 margin-left: <width> ;
 ```
 
-If you only one to set one side at a time, you can use the above version. It's practical when you just want to set one value to a certain width and all the other to zero.
+If you only want to set one side at a time, you can use the above version. It’s practical when you just want to set one value to a certain width and all the others to zero.
 

@@ -9,7 +9,7 @@ They are made of 4 parts :
 
 ### A concrete example 
 
-Let's have a look at the HTML and CSS in the file concrete.html in the left hand pane.
+Let's have a look at the HTML and CSS in the file `concrete.html` in the left hand pane.
 
 The HTML is composed of a single `<p>` and the style displayed contains the four parts described above. The result would look like this :
 
