@@ -1,6 +1,6 @@
 In this section we will see paddings in depth.
 
-Paddings are the spaces from the outer edge of your content to the inner edge of the border. They are used to put space around your text mainly.
+Paddings are the spaces from the outer edge of your content to the inner edge of the border. They are used mainly to put space around your text.
 
 There are multiple ways of defining paddings, and they follow the same logic as margins.
 
