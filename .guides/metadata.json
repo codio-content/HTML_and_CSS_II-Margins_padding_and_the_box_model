@@ -9,7 +9,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Introduction-9037.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "2595ed0f-c8-4728-8367-b3d5a7ac4561",
@@ -32,7 +33,8 @@
    "type": "markdown",
    "content-file": ".guides/content/A-concrete-example-2595.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "b4bed6d3-3263-f3a4-9654-d31f5aad7e6b",
@@ -55,7 +57,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Interactive-example-b4be.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "cd925606-d322-1c46-842a-4dd347063dfd",
@@ -85,7 +88,8 @@
    "chapter": true,
    "reset": [
     "box-sizing"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "3d68f87c-be2c-344-338a-e232eba9b6d8",
@@ -115,7 +119,8 @@
    "chapter": true,
    "reset": [
     "margins"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "c7e9be53-b0a9-52fa-3406-1568b10013e3",
@@ -143,7 +148,10 @@
    "type": "markdown",
    "content-file": ".guides/content/Margins-challenge-c7e9.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "margins-challenge"
+   ],
+   "teacherOnly": false
   },
   {
    "id": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
@@ -175,7 +183,8 @@
    "chapter": false,
    "reset": [
     "negative-margins"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "3be84f54-1e93-6afd-2f1f-d6c119e4b30d",
@@ -203,7 +212,10 @@
    "type": "markdown",
    "content-file": ".guides/content/Negative-margins-for-lists-3be8.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "negative-margins"
+   ],
+   "teacherOnly": false
   },
   {
    "id": "ff25ce21-de5f-bf87-732f-8ce3bb3a75ae",
@@ -231,7 +243,10 @@
    "type": "markdown",
    "content-file": ".guides/content/Centering-with-margins-ff25.md",
    "chapter": false,
-   "reset": []
+   "reset": [
+    "margins-centering"
+   ],
+   "teacherOnly": false
   },
   {
    "id": "e5aa6ff4-1207-c7cf-79e7-c23a727561b5",
@@ -259,7 +274,10 @@
    "type": "markdown",
    "content-file": ".guides/content/Paddings-e5aa.md",
    "chapter": true,
-   "reset": []
+   "reset": [
+    "paddings"
+   ],
+   "teacherOnly": false
   },
   {
    "id": "abcca2cb-a47d-87f-8dd3-a500d04dd1d",
@@ -289,7 +307,8 @@
    "chapter": false,
    "reset": [
     "paddings-challenge"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "49549a02-cd08-73ce-4eec-914418eef23b",
@@ -305,7 +324,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Margin-or-padding---4954.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "92238ab8-1344-562-2169-1299dcef4dcf",
@@ -345,7 +365,8 @@
    "chapter": true,
    "reset": [
     "a-first-challenge"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "9450c13f-6bdf-88fc-e1f5-3af591702e58",
@@ -361,7 +382,8 @@
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks-9450.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   }
  ],
  "theme": "light",
