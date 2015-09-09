@@ -209,7 +209,7 @@
   clear: both;
 }
 
-.codio-button-type-assessment-multiple-answer p {
+.codio-button-type-assessment-multiple-answer .p-tag {
   margin: 0;
 }
 
@@ -482,27 +482,27 @@ a.codio-button {
 }
 
 .codio-button-result.pass .codio-button-result-out:before {
-  border-left: 10px solid transparent;
-  border-bottom: 11px solid #b8e5a6;
-  border-right: 10px solid transparent;
+  content: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/checkmark_green-d5d11211.svg");
+  height: 26px;
+  width: 26px;
 }
 
 .codio-button-result.fail .codio-button-result-out:before {
-  border-left: 10px solid transparent;
-  border-top: 11px solid red;
-  border-right: 10px solid transparent;
+  content: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/remove_red-a4a21ffa.svg");
+  height: 26px;
+  width: 26px;
+}
+
+.codio-button-result.invalid .codio-button-result-out:before {
+  content: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/remove_red-a4a21ffa.svg");
+  height: 26px;
+  width: 26px;
 }
 
 .codio-button-result.progress .codio-button-result-out:before {
   content: url("https://d2g7ua7d94r3fl.cloudfront.net/assets/images/guides/spinner-black-3136a085.gif");
   top: 23px;
   left: 24px;
-}
-
-.codio-button-result.invalid .codio-button-result-out:before {
-  border-left: 10px solid transparent;
-  border-top: 11px solid red;
-  border-right: 10px solid transparent;
 }
 
 .codio-button-result .codio-button-result-out {
@@ -734,14 +734,14 @@ h1 {
   top: 0;
   z-index: 9;
   background: #FFF;
-  max-width: 80%;
+  max-width: 90%;
+  width: 90%;
   font-size: 1.2em;
   font-style: italic;
   font-weight: 500;
-  padding: 10px 0 10px 60px;
+  padding: 10px 5% 10px 5%;
   margin-top: 0;
   margin-left: -60px;
-  width: 100%;
 
   box-shadow: 1px 0 20px #FFF;
   overflow: hidden;
@@ -817,7 +817,7 @@ code {
   border-radius: 2px;
 }
 
-p,
+.p-tag,
 blockquote,
 ul,
 ol,
@@ -834,11 +834,11 @@ li:last-of-type {
   margin-bottom: 0;
 }
 
-h1 + p,
-h3 + p,
-h4 + p,
-h5 + p,
-h6 + p {
+h1 + .p-tag,
+h3 + .p-tag,
+h4 + .p-tag,
+h5 + .p-tag,
+h6 + .p-tag {
   margin-top: 0;
 }
 
@@ -930,6 +930,7 @@ mark {
 .codio-assessment-last-run {
   font-family: 'Brandon Grotesque W01';
 }
+
 
 img.arrow-inline {
   display:inline;

@@ -33,7 +33,9 @@
    "type": "markdown",
    "content-file": ".guides/content/A-concrete-example-2595.md",
    "chapter": true,
-   "reset": [],
+   "reset": [
+    "a-complete-example"
+   ],
    "teacherOnly": false
   },
   {
@@ -57,7 +59,9 @@
    "type": "markdown",
    "content-file": ".guides/content/Interactive-example-b4be.md",
    "chapter": true,
-   "reset": [],
+   "reset": [
+    "interactive-example"
+   ],
    "teacherOnly": false
   },
   {

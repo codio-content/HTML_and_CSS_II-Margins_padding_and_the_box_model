@@ -1,6 +1,6 @@
 ## 
 
-The box model is used to describe the fact that in html, all elements can be considered as a box. So it's a box that's wrapping any content.
+The box model is used to describe the fact that in HTML, all elements can be considered as a box. So it's a box that's wrapping any content.
 
 It's considered of 4 parts :
 
@@ -15,7 +15,7 @@ You can see it like this :
 
 Let's analyse a real case :
 
-We start from this html and css :
+We start from this HTML and CSS :
 
 
 

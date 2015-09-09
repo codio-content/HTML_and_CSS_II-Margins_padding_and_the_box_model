@@ -27,7 +27,7 @@ if (ast.ast == undefined) {
 
 
 if( errors.length <= 0 ) {
-  process.stdout.write('Well done!!!\n');
+  process.stdout.write('Nice ! Exactly what we wanted ...\n');
   process.exit(0);
 }
 else {
