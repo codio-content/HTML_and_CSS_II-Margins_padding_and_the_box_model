@@ -122,7 +122,10 @@
    "content-file": ".guides/content/Margins-3d68.md",
    "chapter": true,
    "reset": [
-    "margins"
+    "margins",
+    "margins-challenge",
+    "negative-margins",
+    "margins-centering"
    ],
    "teacherOnly": false
   },
@@ -151,10 +154,8 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Margins-challenge-c7e9.md",
-   "chapter": true,
-   "reset": [
-    "margins-challenge"
-   ],
+   "chapter": false,
+   "reset": [],
    "teacherOnly": false
   },
   {
@@ -184,10 +185,8 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Negative-margins-for-overlapping-eb8e.md",
-   "chapter": true,
-   "reset": [
-    "negative-margins"
-   ],
+   "chapter": false,
+   "reset": [],
    "teacherOnly": false
   },
   {
@@ -215,10 +214,8 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Negative-margins-for-lists-3be8.md",
-   "chapter": true,
-   "reset": [
-    "negative-margins"
-   ],
+   "chapter": false,
+   "reset": [],
    "teacherOnly": false
   },
   {
@@ -246,10 +243,8 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Centering-with-margins-ff25.md",
-   "chapter": true,
-   "reset": [
-    "margins-centering"
-   ],
+   "chapter": false,
+   "reset": [],
    "teacherOnly": false
   },
   {
@@ -279,7 +274,8 @@
    "content-file": ".guides/content/Paddings-e5aa.md",
    "chapter": true,
    "reset": [
-    "paddings"
+    "paddings",
+    "paddings-challenge"
    ],
    "teacherOnly": false
   },
@@ -308,10 +304,8 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Paddings-challenge-abcc.md",
-   "chapter": true,
-   "reset": [
-    "paddings-challenge"
-   ],
+   "chapter": false,
+   "reset": [],
    "teacherOnly": false
   },
   {
