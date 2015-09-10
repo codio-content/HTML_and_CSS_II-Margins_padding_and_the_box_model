@@ -151,7 +151,7 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Margins-challenge-c7e9.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [
     "margins-challenge"
    ],
@@ -184,7 +184,7 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Negative-margins-for-overlapping-eb8e.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [
     "negative-margins"
    ],
@@ -215,7 +215,7 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Negative-margins-for-lists-3be8.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [
     "negative-margins"
    ],
@@ -246,7 +246,7 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Centering-with-margins-ff25.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [
     "margins-centering"
    ],
@@ -308,7 +308,7 @@
    ],
    "type": "markdown",
    "content-file": ".guides/content/Paddings-challenge-abcc.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [
     "paddings-challenge"
    ],
