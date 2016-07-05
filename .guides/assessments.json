@@ -1,0 +1,98 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2146215518",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Margins challenge",
+   "instructions": "Have a look at the page `challenge.html` in the top left hand pane, as well as its preview underneath. There are four paragraphs, each one has its own CSS class \u001c`p1`, `p2`, ...\n\nAt the top of the HTML page is a `<style>` section where we created the CSS selectors for you \u001c`.p1`, `.p2`, .... \n\nYou have to add margins to these paragraphs. \n\n### Attention \nyou have to use the shortest possible notation for each paragraph !\n\n\n- `p1` should have a margin of 20px everywhere.\n- `p2` should have a vertical margin of 20px and a horizontal margin of 40px.\n- `p3` should have a top margin of 40px, a bottom margin of 20px and a horizontal margin of 10px.\n- `p4` should have a top margin of 20px, a left margin of 10px, a bottom margin of 40px and a right margin of 5px.\n\nGood luck !\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/margins.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-253544142",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Mimick the boxes",
+   "instructions": "In the top left hand pane are two open files: `index.html` and `style.css` and in the bottom left hand pane, two previews, one for the `index.html` file above and one for the target result you are supposed to reach.\n\nIf you look more closely at the `index.html` file you will see that it has 3 `p` tags with classes `box1`, `box2` and `box3`. You are asked to modify the style of these three boxes in `style.css` so that the preview at the bottom will look like the second preview `target.html` next to it.\n\nYou can only user `margin` `padding` and `border` and always use the single value version.\nFor the border color, always use `#333333`. Do not change any other styles than the classes `box1` `box2` and `box3` and do not modify the HTML in `index.html` . \n\nIn the target result we have made the margins (normally invisible) look like <img class=\"margin-swatch\" src=\"/.guides/img/margin-swatch.png\">. It is only to help you, so that you can visualize them, in your result the margins will actually be invisible. \n\nIn order to not confuse both previews in the bottom left hand pane, we have given a title \"This is your file\" to your `index.html` file and a title \"This is the target file\" to the result you have to reach.\n\nGood luck !",
+   "command": "bash .guides/tests/exec.sh .guides/tests/a-first-challenge.js",
+   "points": 10
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2685391133",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Centering with margins",
+   "instructions": "We want to verify that you could successfully center the title and the emphasized paragraphs as explained above by adding `margin:10px auto;` and giving them a width of 400px.",
+   "command": "bash .guides/tests/exec.sh .guides/tests/center-margins.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3205313735",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Negative margins for lists",
+   "instructions": "We want to verify that you understand correctly the concept of negative margins for multi columns lists.\nPlease make sure that you successfully created our multi-column list as explained above.\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/negative-margins2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-416011336",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Paddings challenge",
+   "instructions": "Have a look at the page `challenge.html` in the top left hand pane as well at its preview underneath . There are four paragraphs, each one has its own CSS class \u001c`p1`, `p2`, ...\nAt the top of the HTML page is a `<style>` section where we created the CSS selectors for you \u001c`.p1`, `.p2`, .... \n\nYou have to add paddings to these paragraphs. \n\n### Attention\nyou have to use the shortest possible notation for each paragraph !\n\n- `p1` should have a padding of 5% everywhere.\n- `p2` should have a vertical padding of 10px and a horizontal padding of 35px.\n- `p3` should have a top padding of 10px, a bottom padding of 20px and a horizontal padding of 40px.\n- `p4` should have a top padding of 20px, a left padding of 30px, a bottom padding of 60px and a right padding of 25px.\n\nGood luck !\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/paddings.js",
+   "points": 5
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4202137766",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Negative margins for overlapping",
+   "instructions": "We want to verify that you understand correctly the concept of negative margins for overlapping content. Please make sure that you put a margin of -10px on the `p` on line 8 of `example1.html` as described above.",
+   "command": "bash .guides/tests/exec.sh .guides/tests/negative-margins1.js",
+   "points": 1
+  }
+ }
+]
