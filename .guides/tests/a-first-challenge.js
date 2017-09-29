@@ -1,7 +1,12 @@
 var fs = require('fs');
 var phantom = require('phantom');
 
-var box_domain = process.env.CODIO_BOX_DOMAIN;
+var express = require('express');
+var app = express();
+app.use(express.static('/home/codio/workspace'));
+app.listen(1024);
+
+var box_domain = "localhost:1024";
 var fullurl = "http://"+ box_domain + "/a-first-challenge/index.html";
 var underscoreurl = "http://"+ box_domain + "/.guides/tests/underscore-min.js";
 var errors = [];
