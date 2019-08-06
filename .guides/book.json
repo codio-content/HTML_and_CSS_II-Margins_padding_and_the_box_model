@@ -1,0 +1,100 @@
+{
+ "name": "HTML_and_CSS_II-Margins_padding_and_the_box_model",
+ "children": [
+  {
+   "title": "Introduction",
+   "id": "903723d1-b17b-eeb4-fa2b-82254eb98d4c",
+   "pageId": "903723d1-b17b-eeb4-fa2b-82254eb98d4c",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "A concrete example",
+   "id": "2595ed0f-c8-4728-8367-b3d5a7ac4561",
+   "pageId": "2595ed0f-c8-4728-8367-b3d5a7ac4561",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Interactive example",
+   "id": "b4bed6d3-3263-f3a4-9654-d31f5aad7e6b",
+   "pageId": "b4bed6d3-3263-f3a4-9654-d31f5aad7e6b",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "box sizing",
+   "id": "cd925606-d322-1c46-842a-4dd347063dfd",
+   "pageId": "cd925606-d322-1c46-842a-4dd347063dfd",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "Margins",
+   "id": "3d68f87c-be2c-344-338a-e232eba9b6d8",
+   "pageId": "3d68f87c-be2c-344-338a-e232eba9b6d8",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Margins challenge",
+     "id": "c7e9be53-b0a9-52fa-3406-1568b10013e3",
+     "pageId": "c7e9be53-b0a9-52fa-3406-1568b10013e3",
+     "type": "page"
+    },
+    {
+     "title": "Negative margins for overlapping",
+     "id": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
+     "pageId": "eb8e50c3-4698-fb88-57db-e74d8941ff90",
+     "type": "page"
+    },
+    {
+     "title": "Negative margins for lists",
+     "id": "3be84f54-1e93-6afd-2f1f-d6c119e4b30d",
+     "pageId": "3be84f54-1e93-6afd-2f1f-d6c119e4b30d",
+     "type": "page"
+    },
+    {
+     "title": "Centering with margins",
+     "id": "ff25ce21-de5f-bf87-732f-8ce3bb3a75ae",
+     "pageId": "ff25ce21-de5f-bf87-732f-8ce3bb3a75ae",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Paddings",
+   "id": "e5aa6ff4-1207-c7cf-79e7-c23a727561b5",
+   "pageId": "e5aa6ff4-1207-c7cf-79e7-c23a727561b5",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Paddings challenge",
+     "id": "abcca2cb-a47d-87f-8dd3-a500d04dd1d",
+     "pageId": "abcca2cb-a47d-87f-8dd3-a500d04dd1d",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Margin or padding ?",
+   "id": "49549a02-cd08-73ce-4eec-914418eef23b",
+   "pageId": "49549a02-cd08-73ce-4eec-914418eef23b",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "A final challenge",
+   "id": "92238ab8-1344-562-2169-1299dcef4dcf",
+   "pageId": "92238ab8-1344-562-2169-1299dcef4dcf",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "That's all folks",
+   "id": "9450c13f-6bdf-88fc-e1f5-3af591702e58",
+   "pageId": "9450c13f-6bdf-88fc-e1f5-3af591702e58",
+   "type": "chapter",
+   "children": []
+  }
+ ]
+}
